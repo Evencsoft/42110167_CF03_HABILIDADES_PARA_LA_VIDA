@@ -1,17 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Las Competencias Socioemocionales (CSE) y la trasformación social',
+    descripcionCurso:
+      'El Desarrollo a Escala Humana (DEH) impone retos en el desarrollo de las Competencias Socioemocionales (CSE), desde la construcción de ciudadanías y las posibilidades del agenciamiento para la transformación personal y social en los diferentes contextos de la vida.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
     ],
   },
@@ -31,12 +29,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'La ciudadanía y los diferentes contextos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: '1.1.	Interacción y competencias ciudadanas',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +43,26 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'La agencia y la producción de transformaciones sociales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Elementos del marco lógico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: '3.1.	Fases de implementación del marco lógico',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.1',
+            titulo: '3.1.	3.2.	Ejemplo práctico de marco lógico',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
