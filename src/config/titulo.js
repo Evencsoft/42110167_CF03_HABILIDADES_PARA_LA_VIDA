@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports =
+  'Las Competencias Socioemocionales (CSE) y la trasformación social'
