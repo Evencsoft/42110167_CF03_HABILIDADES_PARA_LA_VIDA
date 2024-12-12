@@ -34,7 +34,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: '1.1.	Interacción y competencias ciudadanas',
+            titulo: 'Interacción y competencias ciudadanas',
             hash: 't_1_1',
           },
         ],
@@ -54,13 +54,13 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: '3.1.	Fases de implementación del marco lógico',
+            titulo: 'Fases de implementación del marco lógico',
             hash: 't_3_1',
           },
           {
-            numero: '3.1',
-            titulo: '3.1.	3.2.	Ejemplo práctico de marco lógico',
-            hash: 't_3_1',
+            numero: '3.2',
+            titulo: 'Ejemplo práctico de marco lógico',
+            hash: 't_3_2',
           },
         ],
       },

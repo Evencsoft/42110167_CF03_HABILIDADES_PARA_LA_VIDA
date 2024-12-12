@@ -5,7 +5,20 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Titulo_de_primer_nivel
+      h1 Elementos del marco lógico 
+
+    
+    separador
+    
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Fases de implementación del marco lógico
+
+    separador
+    
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Ejemplo práctico de marco lógico
+
+
 
 </template>
 
